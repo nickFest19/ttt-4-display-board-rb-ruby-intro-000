@@ -1,11 +1,11 @@
 # Define display_board that accepts a board and prints
 # out the current
-def display_board(place)
-  puts " #{place[0]} | #{place[1]} | #{place[2]} "
+def display_board(board)
+  puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
-  puts " #{place[3]} | #{place[4]} | #{place[5]} "
+  puts " #{board[3]} | #{board[4]} | #{board[5]} "
   puts "-----------"
-  puts " #{place[6]} | #{place[7]} | #{place[8]} "
+  puts " #{board[6]} | #{board[7]} | #{board[8]} "
 
 end
 
